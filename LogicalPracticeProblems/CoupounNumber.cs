@@ -20,14 +20,17 @@ namespace LogicalPracticeProblems
             int num_count = 0;
             while (n < number)
             {
+                //Random Number Generation
                 int randomnumber = r.Next(number + 1);
                 num_count++;
                 if (coupons.Contains(randomnumber))
                 {
+                    //If the Number exist in array continue the for loop
                     continue;
                 }
                 else
                 {
+                    //If the Number does exist in array storing number in array
                     coupons[n] = randomnumber;
 
                 }

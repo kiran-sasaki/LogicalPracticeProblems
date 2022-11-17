@@ -17,7 +17,7 @@ namespace LogicalPracticeProblems
             //WhileLoop For Iteration
             while (num > 0)
             {
-                //Condition for Reversing Number
+                //Condition for Reversing Numbers
                 int rem = num % 10;
                 rev = (rev * 10) + rem;
                 num = num / 10;

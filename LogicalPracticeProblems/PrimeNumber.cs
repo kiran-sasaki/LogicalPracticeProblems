@@ -13,7 +13,7 @@ namespace LogicalPracticeProblems
             Console.Write("Enter a Number : ");
             //Variable
             int number = int.Parse(Console.ReadLine());
-            int IsPrime = 0;
+            int isPrime = 0;
             //Itreating Using For Loop
             for (int i = 2; i < number; i++)
             {
@@ -25,7 +25,7 @@ namespace LogicalPracticeProblems
                     break;
                 }
             }
-            if (IsPrime == 0)
+            if (isPrime == 0)
             {
                 Console.Write("{0} is a Prime Number.",number);
             }

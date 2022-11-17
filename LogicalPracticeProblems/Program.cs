@@ -6,7 +6,8 @@
         {
             Console.WriteLine("Welcome To Logical Practice Problems");
             //FibonacciSeries.Fibonacci();
-            PerfectNumber.PerfectNumberCheck();
+            //PerfectNumber.PerfectNumberCheck();
+            PrimeNumber.NumberCheck();
         }
     }
 }

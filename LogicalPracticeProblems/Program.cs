@@ -12,7 +12,8 @@
             //CouponNumber.GenerateCouponNumber();
             //StopWatch.Timer();
             //TemperatureConversion.Tempreature();
-            MonthlyPayment.CalculatePayment();
+            //MonthlyPayment.CalculatePayment();
+            VendingMachine.countCurrency();
         }
     }
 }

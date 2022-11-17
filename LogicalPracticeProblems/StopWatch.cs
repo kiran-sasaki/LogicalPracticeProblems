@@ -13,12 +13,15 @@ namespace LogicalPracticeProblems
         {
             Console.WriteLine("enter the time to stop");
             int time = int.Parse(Console.ReadLine());
+            //Object of Stopwatch class
             Stopwatch stopwatch = new Stopwatch();
+            //Starting StopWatch
             stopwatch.Start();
             for (int i = 0; i < time; i++)
             {
                 System.Threading.Thread.Sleep(10);
             }
+            //Stopping StopWatch
             stopwatch.Stop();
 
             Console.WriteLine("Time elapsed: {0:hh\\:mm\\:ss}", stopwatch.Elapsed);

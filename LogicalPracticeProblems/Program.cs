@@ -10,7 +10,8 @@
             //PrimeNumber.NumberCheck();
             //ReverseNumber.ReversedNumber();
             //CouponNumber.GenerateCouponNumber();
-            StopWatch.Timer();
+            //StopWatch.Timer();
+            TemperatureConversion.Tempreature();
         }
     }
 }

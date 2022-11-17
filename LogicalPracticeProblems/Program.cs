@@ -11,7 +11,8 @@
             //ReverseNumber.ReversedNumber();
             //CouponNumber.GenerateCouponNumber();
             //StopWatch.Timer();
-            TemperatureConversion.Tempreature();
+            //TemperatureConversion.Tempreature();
+            MonthlyPayment.CalculatePayment();
         }
     }
 }

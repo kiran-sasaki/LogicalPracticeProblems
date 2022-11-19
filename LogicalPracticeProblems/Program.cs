@@ -13,7 +13,8 @@
             //StopWatch.Timer();
             //TemperatureConversion.Tempreature();
             //MonthlyPayment.CalculatePayment();
-            VendingMachine.countCurrency();
+            //VendingMachine.countCurrency();
+            DaysOfWeek.CalculateDays();
         }
     }
 }
